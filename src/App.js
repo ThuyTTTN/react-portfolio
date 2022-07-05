@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ContactForm from './components/Contact';
 
 
 //style
@@ -14,6 +15,7 @@ function App() {
           Content
         </div>
         <div className='py-3'>
+          <ContactForm />
         <Footer />  
         </div> 
    </div>
