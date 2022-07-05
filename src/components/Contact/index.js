@@ -50,7 +50,35 @@ function ContactForm() {
       };
 
       return (
-        <section>
+        <Form>
+            <Form.Group controlId="name">
+                <Form.Label>Name</Form.Label>
+                <Form.Control required name="name" placeholder="Enter name" onBlur={handleChange} />
+            </Form.Group>
+            <Form.Group controlId="email">
+                <Form.Label>Email:</Form.Label>
+                <Form.Control required name="email" type="email" placeholder="name@example.com" onBlue={handleChange}/>
+            </Form.Group>
+            <Form.Group controlId="message">
+                <Form.Label>Message</Form.Label>
+                <Form.Control required name="message" as="textarea" rows="5" placeholder="Message" onBlur={handleChange}></Form.Control>
+            </Form.Group>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <Button data-testid="button" type="submit">Submit</Button>
+            
+        </Form>
+      );
+
+}
+
+export default ContactForm;
+
+
+{/* <section>
           <h1>Contact Me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
@@ -63,7 +91,7 @@ function ContactForm() {
               />
             </div>
             <div>
-              <label htmlFor="email">Email address:</label>
+              <label htmlFor="email">Email:</label>
               <input
                 type="email"
                 defaultValue={email}
@@ -87,9 +115,4 @@ function ContactForm() {
             )}
             <button data-testid="button" type="submit">Submit</button>
           </form>
-        </section>
-      );
-
-}
-
-export default ContactForm;
+        </section> */}
