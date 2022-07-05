@@ -17,15 +17,6 @@
 .main-footer {
   background-color:  #0D1F2D;
   color: #fff;
-  height: 60px;
+  /* height: 60px; */
   
-}
-
-.footer-name {
-  margin-top: 20px;
-}
-
-.footer-icons {
-  margin-left: 200px;
-  margin-top: 20px;
 }
