@@ -1,18 +1,13 @@
-/* * {
+* {
   background-color: #0D1F2D;
   color: #FAE1DF;
-
-} */
-
-/* .bg-myBlue {
-  background-color:  #0D1F2D;
-} */
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 body {
   font-weight: 400;
@@ -61,15 +56,17 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 /* icon styling */
+.icon {
+  color: #FAE1DF;
+  letter-spacing: 20px;
+  font-size: 1.5rem;
+}
+
+.icon:hover {
+  color: #FFF;
+}
 
 
-
-
-/* .content {
-  margin-top: 60px;
-  padding: 20px;
-  height: 3000px;
-} */
 
 /* .main-footer {
   background-color:  #0D1F2D;

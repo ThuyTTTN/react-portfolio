@@ -51,7 +51,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact Me</h1>
+      <h1>Get In Touch</h1>
       <Form id="contact-form" onSubmit={handleSubmit}>
         <Form.Group controlId="name">
           <Form.Label>Name</Form.Label>

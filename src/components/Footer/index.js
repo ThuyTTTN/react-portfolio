@@ -1,9 +1,7 @@
 import React from "react";
 
 //import bootstrap styles
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col }  from "react-bootstrap";
 
 function Footer() {
   return (
@@ -19,13 +17,13 @@ function Footer() {
             className="d-flex justify-content-md-end justify-content-center"
           >
             <a href="https://github.com/ThuyTTTN" >
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github icon"></i>
             </a>&nbsp;
             <a href="www.linkedin.com/in/thuy-nguyen-a2333031" >
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin icon"></i>
             </a>&nbsp;
             <a href="/" >
-              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter icon"></i>
             </a>
           </Col>
         </Row>
