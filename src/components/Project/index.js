@@ -1,5 +1,5 @@
 import React from "react";
-import projectCard from "../ProjectCard.js";
+import ProjectCard from "../ProjectCard.js";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -7,12 +7,12 @@ import TrackVisibility from "react-on-screen";
 import { Container, Row, Col } from "react-bootstrap";
 
 //import images for portfolio
-import project1 from "../../assets/project1.jpg";
-import project2 from "../../assets/project2.png";
-import project3 from "../../assets/project3.png";
-import project4 from "../../assets/project4.png";
-import project5 from "../../assets/project5.jpg";
-import project6 from "../../assets/project6.png";
+import project1 from "../../assets/project1-416.jpg";
+import project2 from "../../assets/project2-tech-blog.png";
+import project3 from "../../assets/project3-416.png";
+import project4 from "../../assets/project4-budget.png";
+import project5 from "../../assets/project5-416.jpg";
+import project6 from "../../assets/project6-workday.png";
 
 function Project() {
   const projects = [
@@ -32,6 +32,8 @@ function Project() {
       description: "Front end API weather dashboard.",
       imgUrl: project3,
     },
+    
+    
     {
       title: "Budget Tracker",
       description:
@@ -49,6 +51,8 @@ function Project() {
       description: "Work day scheduling application",
       imgUrl: project6,
     },
+    
+    
   ];
 
   return (
@@ -62,14 +66,10 @@ function Project() {
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
-                  <h2>Projects</h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. 
-                  </p>
+                  <h2>Portfolio Projects</h2>
                   <Row>
                     {projects.map((project, index) => {
-                      return <projectCard key={index} {...project} />;
+                      return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
                 </div>

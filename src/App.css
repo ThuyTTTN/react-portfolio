@@ -71,16 +71,28 @@ section {
   margin: 0;
   padding: 50px;
 }
+
+/* About Me */
+.about-me {
+  background-color: #FFF;
+}
+
+.about-me h1,p {
+  color: #0D1F2D;
+  background-color: #FFF;
+}
+
+
 #contact-form {
   width: 75%;
 
 }
 
-.card-container {
+/* .card-container {
   width: 300px;
   overflow: hidden;
   box-shadow: 0px 0px 15px -5px;
-}
+} */
 /* .main-footer {
   background-color:  #0D1F2D;
   color: #fff;
@@ -88,7 +100,7 @@ section {
   
 /* Project section */
 .project {
-  padding: 80px 0;
+  padding: 80px 0px;
   position: relative;
   background-color: #fff;
 }
@@ -111,13 +123,13 @@ section {
 
   .proj-imgbx {
     position: relative;
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
     margin-bottom: 24px;
   }
   .proj-imgbx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #FAE1DF -5.91%, #4A2FBD 111.58%);
     opacity: 0.85;
     position: absolute;
     width: 100%;
