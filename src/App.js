@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
 import Project from "./components/Project";
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h3 className="about-me">About me</h3>
+      <About />
       <Project />
       
       <ContactForm />
