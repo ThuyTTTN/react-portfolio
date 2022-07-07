@@ -1,15 +1,21 @@
-import { Col } from "react-bootstrap";
+import { Col } from 'react-bootstrap';
 
-export const projectCard = ({ title, description, imgUrl }) => {
+
+function projectCard({ title, description, imgUrl}) {
+    
+
   return (
     <Col size={12} sm={6} md={4}>
-      <div className="project-box">
+      <div className="proj-imgbx">
         <img src={imgUrl} />
-        <div className="project-text">
+        <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
         </div>
       </div>
     </Col>
   )
+
 }
+
+export default projectCard;
