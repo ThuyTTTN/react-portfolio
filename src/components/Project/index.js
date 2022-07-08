@@ -31,9 +31,7 @@ function Project() {
       title: "Weather Dashboard",
       description: "Front end API weather dashboard.",
       imgUrl: project3,
-    },
-    
-    
+    },    
     {
       title: "Budget Tracker",
       description:
@@ -51,8 +49,6 @@ function Project() {
       description: "Work day scheduling application",
       imgUrl: project6,
     },
-    
-    
   ];
 
   return (
