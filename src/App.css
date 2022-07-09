@@ -1,7 +1,7 @@
 * {
   background-color: #0D1F2D;
   color: #FAE1DF;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
 }
 
 * {
@@ -159,6 +159,10 @@ section {
 
 }
 
+/* Resume section */
+.card-box {
+  width: 300px;
+}
 
 .main-footer {
   background-color:  #0D1F2D;

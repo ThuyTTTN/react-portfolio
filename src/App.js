@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 
 //style
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Project />
       <ContactForm />
+      <Resume />
       <Footer />
     </div>
   );
