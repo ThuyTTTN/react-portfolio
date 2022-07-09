@@ -52,7 +52,7 @@ function Project() {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="portfolio">
       <Container>
         <Row>
         <h2 className="title" style={{textAlign: "center"}}>Portfolio Projects</h2>

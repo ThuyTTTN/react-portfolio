@@ -4,10 +4,10 @@ import ThuyImg from "../../assets/Thuy-img-PhotoRoom.png";
 
 function About() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about">
       <Container>
         <Row className="about-container">
-          <h1 id="about" className="title" style={{ textAlign: "center" }}>
+          <h1  className="title" style={{ textAlign: "center" }}>
             About Me
           </h1>
           <div className="d-flex justify-content-around">

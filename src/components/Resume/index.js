@@ -5,7 +5,7 @@ import { Button, Container, Card, Row, Col } from "react-bootstrap";
 
 function Resume() {
   return (
-    <section >
+    <section id="resume">
       <Container>
         <div className="resume-section d-flex align-items-center flex-column">
           <Row >

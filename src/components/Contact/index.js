@@ -49,7 +49,7 @@ function ContactForm() {
   }
 
   return (
-    <section>
+    <section id="contact">
       <Container>
         <Row>
           <h1 className="title" style={{ textAlign: "center" }}>
