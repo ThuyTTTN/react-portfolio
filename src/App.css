@@ -1,14 +1,11 @@
 * {
   background-color: #0D1F2D;
   color: #FAE1DF;
-  border: 1px solid yellow;
-}
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+  /* border: 1px solid yellow; */
+}
 
 body {
   font-weight: 400;
@@ -19,6 +16,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
+/* ***** Header/ NavBar ***** */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -48,7 +46,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   opacity: 0.75;
 }
 
-/* Banner styling */
+/* *****Banner styling***** */
 .banner {
   margin-top: 0;
   padding: 100px 0 100px 0;
@@ -66,22 +64,13 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
 }
-
-/* .banner p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-  background-color: #0D1F2D;
-} */
 
 .banner button {
   color: #fff;
@@ -122,7 +111,7 @@ border-right: 0.08em solid #666;
 }
 
 
-/* icon styling */
+/* ****icon styling***** */
 .icon {
   color: #FAE1DF;
   letter-spacing: 20px;
@@ -148,33 +137,40 @@ section {
   margin-bottom: 16px;
   display: inline-block;
 }
-/* About Me */
+
+/* ***** About Me***** */
 .about.container-row {
   background-color: #B8B8B8;
   width: 100%;
 }
 
+/* **** Contact Section **** */
 #contact-form {
   width: 75%;
-
 }
 
 /* Resume section */
 .card-box {
   width: 300px;
+  box-shadow: rgba(182, 150, 166, 0.35) 0px 5px 15px;
 }
 
+.resume-section {
+  margin-bottom: 30px;
+}
+
+  /*  Footer */
 .main-footer {
   background-color:  #0D1F2D;
   color: #fff;
 }
 
 
+
 /* Project section */
 .project {
   padding: 80px 0px;
   position: relative;
-  
 }
 
 .project h2 {
@@ -184,23 +180,14 @@ section {
   margin: 30px 0;
 }
 
-/* .project p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
-} */
-
-  .proj-imgbx {
+.proj-imgbx {
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 24px;
   }
-  .proj-imgbx::before {
+
+.proj-imgbx::before {
     content: "";
     background: linear-gradient(90.21deg, #FAE1DF -5.91%, #4A2FBD 111.58%);
     opacity: 0.85;
@@ -209,10 +196,12 @@ section {
     height: 0;
     transition: 0.4s ease-in-out;
   }
-  .proj-imgbx:hover::before {
+
+.proj-imgbx:hover::before {
     height: 100%;
   }
-  .proj-txtx {
+
+.proj-txtx {
     position: absolute;
     text-align: center;
     top: 65%;
@@ -222,17 +211,20 @@ section {
     opacity: 0;
     width: 100%;
   }
-  .proj-imgbx:hover .proj-txtx {
+
+.proj-imgbx:hover .proj-txtx {
     top: 50%;
     opacity: 1;
   }
-  .proj-txtx h4 {
+
+.proj-txtx h4 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
   }
-  .proj-txtx span {
+
+.proj-txtx span {
     font-style: italic;
     font-weight: 400;
     font-size: 15px;

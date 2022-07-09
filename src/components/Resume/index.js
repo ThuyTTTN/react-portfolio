@@ -6,9 +6,9 @@ import { Button, Container, Card, Row, Col } from "react-bootstrap";
 function Resume() {
   return (
     <section >
-      <Container >
-        <Col >
-        <Row >
+      <Container>
+        <div className="resume-section d-flex align-items-center flex-column">
+          <Row >
           <h1 className="title">
             Technical Skills and Experience
           </h1>
@@ -16,11 +16,12 @@ function Resume() {
         <Button
           href="https://1drv.ms/b/s!Aka643mjyMAQpFdoHmkmERgX8IBb?e=EGgqeh"
           target="_blank"
-          rel="noopener noreferrer" className="align-items-center justify-content-center"
+          rel="noopener noreferrer"  variant="secondary" className=""
         >
           My Resume
         </Button>
-        <Row className="d-flex" >
+        </div>
+        <div className="d-flex justify-content-around" >
           <Card className="card-box" >
             <Card.Body>
               <h3>Frontend</h3>
@@ -28,7 +29,6 @@ function Resume() {
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Responsive Design</li>
                 <li>React</li>
                 <li>Bootstrap</li>
                 <li>jQuery</li>
@@ -50,8 +50,7 @@ function Resume() {
             </Card.Body>
           </Card>
           
-        </Row>
-        </Col>
+        </div>
       </Container>
     </section>
   );

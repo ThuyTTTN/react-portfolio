@@ -53,7 +53,7 @@ function ContactForm() {
       <Container>
         <Row>
           <h1 className="title" style={{ textAlign: "center" }}>
-            Get In Touch
+            Let's Connect!
           </h1>
           <Form id="contact-form " onSubmit={handleSubmit}>
             <Form.Group controlId="name">
