@@ -12,6 +12,7 @@ function MainContainer({page, setPage}) {
 
   const currentPage = () => {
     
+
     if (page === "about") {
       return <About />;
     }

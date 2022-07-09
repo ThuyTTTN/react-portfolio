@@ -30,9 +30,9 @@ nav.navbar a.navbar-brand {
   width: 20%; 
 }
 
-a.navbar-brand {
+/* a.navbar-brand {
   color:#FAE1DF !important;
-}
+} */
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
