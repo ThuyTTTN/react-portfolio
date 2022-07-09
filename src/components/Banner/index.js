@@ -2,7 +2,7 @@ import React, {useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
-import watercolorBanner from "../../assets/watercolor-banner.png";
+import watercolorBanner from "../../assets/watercolor-splash-banner.png";
 
 function Banner() {
     //looping through words
@@ -14,7 +14,7 @@ function Banner() {
     // rotating words
     const toRotate = [ "Software Developer", "Software Engineer ", "Jr Developer" ];
     //time between each text typed out
-    const period = 2000;
+    const period = 1000;
     //determines how fast each letter is typed
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
@@ -62,8 +62,8 @@ function Banner() {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to My Portfolio</span>
-                <h1>{`Hi! I'm Thuy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Software Engineer ", "Jr Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Thuy Nguyen, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
+                  
                   <button onClick={() => console.log('connect')}> &nbsp;Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -72,7 +72,7 @@ function Banner() {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={watercolorBanner} alt="Header Img" width="500" height="500"/>
+                  <img src={watercolorBanner} alt="Header Img" width="450" height="450"/>
                 </div>}
             </TrackVisibility>
           </Col>

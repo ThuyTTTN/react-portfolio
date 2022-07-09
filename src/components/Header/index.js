@@ -11,8 +11,8 @@ const onUpdateActiveLink = (value) => {
   return (
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Thuy Nguyen</Navbar.Brand>  
-          <Nav className="about-me">
+          {/* <Navbar.Brand href="#home">Thuy Nguyen</Navbar.Brand>   */}
+          <Nav className="about-me ms-auto">
             <Nav.Link href="#about" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About Me</Nav.Link>
             <Nav.Link href="#portfolio"className={activeLink === 'portfolio' ? 'active navbar-link' : 'navbar-link' }  onClick={() => onUpdateActiveLink('portfolio')}>Portfolio</Nav.Link>
             <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'}  onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>

@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 //import from bootstrap
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import { Form, Button, Container, Row } from "react-bootstrap";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -51,91 +50,56 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 >Get In Touch</h1>
-      <Form id="contact-form " onSubmit={handleSubmit}>
-        <Form.Group controlId="name">
-          <Form.Label>Name</Form.Label>
-          <Form.Control
-            required
-            name="name"
-            placeholder="Enter name"
-            onBlur={handleChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="email">
-          <Form.Label>Email:</Form.Label>
-          <Form.Control
-            required
-            name="email"
-            type="email"
-            placeholder="name@example.com"
-            onBlue={handleChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="message">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
-            required
-            name="message"
-            as="textarea"
-            rows="5"
-            placeholder="Message"
-            onBlur={handleChange}
-          ></Form.Control>
-        </Form.Group>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <br></br>
-        <Button data-testid="button" type="submit">
-          Submit
-        </Button>
-      </Form>
-    </section>
-  );
-}
-
-export default ContactForm;
-
-
-  /* <section>
-          <h1>Contact Me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Name:</label>
-              <input
-                type="text"
-                defaultValue={name}
-                onBlur={handleChange}
+      <Container>
+        <Row>
+          <h1 className="title" style={{ textAlign: "center" }}>
+            Get In Touch
+          </h1>
+          <Form id="contact-form " onSubmit={handleSubmit}>
+            <Form.Group controlId="name">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                required
                 name="name"
+                placeholder="Enter name"
+                onBlur={handleChange}
               />
-            </div>
-            <div>
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                defaultValue={email}
+            </Form.Group>
+            <Form.Group controlId="email">
+              <Form.Label>Email:</Form.Label>
+              <Form.Control
+                required
                 name="email"
-                onBlur={handleChange}
+                type="email"
+                placeholder="name@example.com"
+                onBlue={handleChange}
               />
-            </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea
+            </Form.Group>
+            <Form.Group controlId="message">
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                required
                 name="message"
-                defaultValue={message}
-                onBlur={handleChange}
+                as="textarea"
                 rows="5"
-              />
-            </div>
+                placeholder="Message"
+                onBlur={handleChange}
+              ></Form.Control>
+            </Form.Group>
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
               </div>
             )}
-            <button data-testid="button" type="submit">Submit</button>
-          </form>
-        </section> */
+            <br></br>
+            <Button data-testid="button" type="submit" variant="secondary">
+              Submit
+            </Button>
+          </Form>
+        </Row>
+      </Container>
+    </section>
+  );
+}
 
+export default ContactForm;

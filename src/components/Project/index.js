@@ -19,7 +19,7 @@ function Project() {
     {
       title: "Sweet Nostalgia",
       description:
-        "A Fullstack E-commerce application for monthly subscriptions of decade candy sweets.",
+        "A Fullstack E-commerce application for monthly subscription of candies from specific decades.",
       imgUrl: project1,
     },
     {
@@ -55,6 +55,7 @@ function Project() {
     <section className="project" id="project">
       <Container>
         <Row>
+        <h2 className="title" style={{textAlign: "center"}}>Portfolio Projects</h2>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -62,7 +63,6 @@ function Project() {
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
-                  <h2>Portfolio Projects</h2>
                   <Row>
                     {projects.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
