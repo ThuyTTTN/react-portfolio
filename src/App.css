@@ -156,8 +156,8 @@ section {
 /* Resume section */
 .card-box {
   width: 300px;
-  box-shadow: rgba(207, 168, 188, 0.35) 0px 5px 15px;
-  border-radius: 10px;
+  /* box-shadow: rgba(207, 168, 188, 0.35) 0px 5px 15px; */
+  
   
 }
 
