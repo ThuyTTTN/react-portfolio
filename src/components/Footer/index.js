@@ -3,6 +3,7 @@ import React from "react";
 //import bootstrap styles
 import { Container, Row, Col }  from "react-bootstrap";
 
+
 function Footer() {
   return (
     <footer className="main-footer p-3">

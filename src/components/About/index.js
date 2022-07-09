@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Image, Container } from "react-bootstrap";
+import { Row, Image, Container } from "react-bootstrap";
 import ThuyImg from "../../assets/Thuy-img-PhotoRoom.png";
 
 function About() {

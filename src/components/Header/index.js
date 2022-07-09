@@ -8,6 +8,7 @@ function Header({setPage}) {
 //   setActiveLink(value);
 // }
 
+
   return (
       <Navbar expand="lg">
         <Container>
@@ -19,8 +20,8 @@ function Header({setPage}) {
               }}>About Me</Nav.Link>
             <Nav.Link href="/portfolio" className='navbar-link'  onClick={() => {
               // onUpdateActiveLink('portfolio')
-              setPage('portfolio')
-              }}>Portfolio</Nav.Link>
+              setPage('portfolio')}}>
+                Portfolio</Nav.Link>
             <Nav.Link href="/resume" className= 'navbar-link' onClick={() => {
               // onUpdateActiveLink('resume')
               setPage('resume')

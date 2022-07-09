@@ -95,8 +95,7 @@ function Banner({setPage}) {
                 <div
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
+                  }>
                   <img
                     src={watercolorBanner}
                     alt="Header Img"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import Header from "../Header";
 import About from "../About";
 import Footer from "../Footer";
@@ -7,12 +7,11 @@ import Project from "../Project";
 import Resume from "../Resume";
 
 
-
-
 function MainContainer({page, setPage}) {
   
 
   const currentPage = () => {
+    
     if (page === "about") {
       return <About />;
     }
