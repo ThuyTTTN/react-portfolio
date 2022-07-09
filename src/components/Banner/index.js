@@ -55,6 +55,7 @@ function Banner({setPage}) {
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
+    
   };
 
   return (

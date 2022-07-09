@@ -8,11 +8,8 @@ import Resume from "../Resume";
 
 
 function MainContainer({page, setPage}) {
-  
-
   const currentPage = () => {
     
-
     if (page === "about") {
       return <About />;
     }
@@ -25,7 +22,7 @@ function MainContainer({page, setPage}) {
     if (page === "resume") {
       return <Resume />;
     }
-  
+    
   };
   return (
    <>
@@ -33,9 +30,6 @@ function MainContainer({page, setPage}) {
       {currentPage()}
       <Footer />
    </>
-   
-      
-
   );
 }
 
