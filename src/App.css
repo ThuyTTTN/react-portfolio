@@ -82,15 +82,18 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   align-items: center;
   border: 1px solid #B8B8B8;
 }
+
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
+
 .banner button:hover svg {
   margin-left: 25px;
 }
+
 .banner img {
   animation: updown 3s linear infinite;
 }
@@ -106,6 +109,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
       transform: translateY(-20px);
   }
 }
+
 .txt-rotate > .wrap {
 border-right: 0.08em solid #666;
 }
@@ -152,7 +156,9 @@ section {
 /* Resume section */
 .card-box {
   width: 300px;
-  box-shadow: rgba(182, 150, 166, 0.35) 0px 5px 15px;
+  box-shadow: rgba(207, 168, 188, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  
 }
 
 .resume-section {
@@ -164,8 +170,6 @@ section {
   background-color:  #0D1F2D;
   color: #fff;
 }
-
-
 
 /* Project section */
 .project {

@@ -64,7 +64,7 @@ function Banner() {
                 <span className="tagline">Welcome to My Portfolio</span>
                 <h1>{`Hi! I'm Thuy Nguyen, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
                   
-                  <button onClick={() => console.log('connect')}> &nbsp;Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('portfolio')}> &nbsp;Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

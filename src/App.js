@@ -18,8 +18,8 @@ function App() {
       <Banner />
       <About />
       <Project />
-      <ContactForm />
       <Resume />
+      <ContactForm />
       <Footer />
     </div>
   );
