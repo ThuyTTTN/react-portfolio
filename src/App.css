@@ -13,26 +13,19 @@ body {
   position: relative;
   background-color: #0D1F2D;
   color: #FAE1DF;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /* ***** Header/ NavBar ***** */
 nav.navbar {
-  padding: 18px 0;
+  padding: 18px 100px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
-}
 
-nav.navbar a.navbar-brand {
-  width: 20%; 
 }
-
-/* a.navbar-brand {
-  color:#FAE1DF !important;
-} */
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -42,9 +35,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
 }
 
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   opacity: 0.75;
 }
+
 
 /* *****Banner styling***** */
 .banner {
@@ -124,6 +119,7 @@ border-right: 0.08em solid #666;
 
 .icon:hover {
   color: #FFF;
+  transform: scale(1.1); 
 }
 
 section {
@@ -138,31 +134,77 @@ section {
   background: linear-gradient(90.21deg, rgba(236, 136, 196, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 48px;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
+  margin-top: 70px;
   display: inline-block;
+  text-align: center;
 }
 
 /* ***** About Me***** */
+#about{
+  height: 800px;
+}
+
 .about.container-row {
   background-color: #B8B8B8;
   width: 100%;
 }
 
+.about-me a{
+  text-decoration: none;
+}
+
+.about-text {
+  font-size: 2.0rem;
+}
+
 /* **** Contact Section **** */
+#contact {
+  height: 800px;
+}
+
 #contact-form {
   width: 75%;
 }
 
 /* Resume section */
+#resume {
+  height: 800px;
+}
 .card-box {
-  width: 300px;
-  /* box-shadow: rgba(207, 168, 188, 0.35) 0px 5px 15px; */
-  
-  
+  width: 350px;
+  background-color: #FAE1DF;
+  margin-top: 30px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.card-box:hover {
+  transform: scale(1.1); 
+
+}
+
+.card-header {
+  color:#0D1F2D;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-body, .card-body ul, .card-body li {
+  background-color: #fff;
+  color: #0D1F2D;
+  font-size: 1.2rem;
 }
 
 .resume-section {
   margin-bottom: 30px;
+}
+
+.resume-btn {
+  width: 20%;
 }
 
   /*  Footer */
@@ -171,7 +213,7 @@ section {
   color: #fff;
 }
 
-/* Project section */
+
 .project {
   padding: 80px 0px;
   position: relative;

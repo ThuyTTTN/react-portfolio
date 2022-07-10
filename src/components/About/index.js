@@ -7,7 +7,7 @@ function About() {
     <section className="about-me" id="about">
       <Container>
         <Row className="about-container">
-          <h1 className="title" style={{ textAlign: "center" }}>
+          <h1 className="title" >
             About Me
           </h1>
           <div className="d-flex justify-content-around">

@@ -1,5 +1,6 @@
 // import React, { useState } from "react";
 import Header from "../Header";
+import Banner from "../Banner";
 import About from "../About";
 import Footer from "../Footer";
 import ContactForm from "../Contact";
@@ -12,7 +13,7 @@ function MainContainer() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Banner} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Project} />
         <Route exact path="/resume" component={Resume} />
