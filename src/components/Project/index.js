@@ -21,33 +21,45 @@ function Project() {
       description:
         "A Fullstack E-commerce application for monthly subscription of candies from specific decades.",
       imgUrl: project1,
+      gitLink: "https://github.com/ThuyTTTN/Sweet-Nostalgia",
+      link:"https://sweet-nostalgia.herokuapp.com/"
     },
     {
       title: "Tech Blog",
       description: "CMS style tech blog.",
       imgUrl: project2,
+      gitLink: "https://github.com/ThuyTTTN/tech-blog",
+      link:"https://github.com/ThuyTTTN/tech-blog"
     },
     {
       title: "Weather Dashboard",
       description: "Front end API weather dashboard.",
       imgUrl: project3,
+      gitLink: "https://github.com/ThuyTTTN/weather-dashboard",
+      link:"https://thuytttn.github.io/weather-dashboard/"
     },    
     {
       title: "Budget Tracker",
       description:
         "PWA budget tracker that can be used with no internet connection",
       imgUrl: project4,
+      gitLink: "https://github.com/ThuyTTTN/PWA-budget-tracker",
+      link: "https://obscure-lowlands-15025.herokuapp.com/"
     },
     {
       title: "Florida's Hungry",
       description:
         "Front end application to locate restaurants in specific cities.",
       imgUrl: project5,
+      gitLink: "https://github.com/ThuyTTTN/Florida-s-hungry",
+      link:"https://thuytttn.github.io/Florida-s-hungry/"
     },
     {
       title: "Work Day Scheduler",
       description: "Work day scheduling application",
       imgUrl: project6,
+      gitLink: "https://github.com/ThuyTTTN/work-day-scheduler",
+      link:"https://thuytttn.github.io/work-day-scheduler/"
     },
   ];
 
@@ -67,7 +79,9 @@ function Project() {
                     {projects.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
+                    
                   </Row>
+                  
                 </div>
               )}
             </TrackVisibility>

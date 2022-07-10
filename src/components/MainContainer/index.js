@@ -13,7 +13,7 @@ function MainContainer() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={Banner} />
+        <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Project} />
         <Route exact path="/resume" component={Resume} />

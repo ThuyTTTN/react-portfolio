@@ -72,7 +72,7 @@ function Banner({setPage}) {
                 >
                   <span className="tagline">Welcome to My Portfolio</span>
                   <h1>
-                    {`Hi! I'm Thuy Nguyen, `}{" "}
+                    {`Hi! I'm Thuy Nguyen, a `}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"

@@ -14,10 +14,9 @@ function Resume() {
               href="https://1drv.ms/b/s!Aka643mjyMAQpFdoHmkmERgX8IBb?e=EGgqeh"
               target="_blank"
               rel="noopener noreferrer"
-              variant="secondary"
+              variant="light"
               className=""
             >
-              {" "}
               Click for my Resume
             </Button>
           </div>
