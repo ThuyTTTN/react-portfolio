@@ -18,7 +18,7 @@ function About() {
               <p classname="about-text">
                 I'm a full stack developer student at the University of Central
                 Florida Bootcamp. As a UCF alumni, I received my B.S. in
-                Biology, then further my education with a Doctor of Chirpractic
+                Biology, then further my education with a Doctor of Chiropractic
                 degree from Palmer College of Chiropractic. I enjoy helping
                 people and learning about technology. In my free time, I love
                 spending time with my family, going to the beach, fishing, and
