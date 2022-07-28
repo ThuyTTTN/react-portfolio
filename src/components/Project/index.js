@@ -12,7 +12,7 @@ import project2 from "../../assets/project2-tech-blog.png";
 import project3 from "../../assets/project3-416.png";
 import project4 from "../../assets/project4-budget.png";
 import project5 from "../../assets/project5-416.jpg";
-import project6 from "../../assets/project6-workday.png";
+import project6 from "../../assets/project6-ogsnkrs416.jpg";
 
 function Project() {
   const projects = [
@@ -55,11 +55,11 @@ function Project() {
       link:"https://thuytttn.github.io/Florida-s-hungry/"
     },
     {
-      title: "Work Day Scheduler",
-      description: "Work day scheduling application",
+      title: "OG SNKRS",
+      description: "MERN stack E-commerce for sneaker enthusiast",
       imgUrl: project6,
-      gitLink: "https://github.com/ThuyTTTN/work-day-scheduler",
-      link:"https://thuytttn.github.io/work-day-scheduler/"
+      gitLink: "https://github.com/ThuyTTTN/OG-SNKRS",
+      link:"https://og-snkrs.herokuapp.com/"
     },
   ];
 
