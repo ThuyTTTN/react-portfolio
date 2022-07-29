@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.433ceead.css",
+    "main.js": "/react-portfolio/static/js/main.743e09c8.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/watercolor-splash-banner.png": "/react-portfolio/static/media/watercolor-splash-banner.7c42d3bbb2bc7c669ca3.png",
+    "static/media/Thuy-img-PhotoRoom.png": "/react-portfolio/static/media/Thuy-img-PhotoRoom.e9672e5d9435d5f5d238.png",
+    "static/media/project3-416.png": "/react-portfolio/static/media/project3-416.216e153d9a508fd02400.png",
+    "static/media/project5-416.jpg": "/react-portfolio/static/media/project5-416.2bf835c45ab8dd328c0b.jpg",
+    "static/media/project1-416.jpg": "/react-portfolio/static/media/project1-416.28d2ff29fb07c693bfea.jpg",
+    "static/media/project4-budget.png": "/react-portfolio/static/media/project4-budget.ad68b2be4dd216d0393b.png",
+    "static/media/project2-tech-blog.png": "/react-portfolio/static/media/project2-tech-blog.56834c588278a8eb7352.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.433ceead.css.map": "/react-portfolio/static/css/main.433ceead.css.map",
+    "main.743e09c8.js.map": "/react-portfolio/static/js/main.743e09c8.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.433ceead.css",
+    "static/js/main.743e09c8.js"
+  ]
+}
