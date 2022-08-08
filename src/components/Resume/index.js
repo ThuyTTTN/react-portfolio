@@ -11,7 +11,7 @@ function Resume() {
           <h1 className="title">Technical Skills and Experience</h1>
           <div className="resume-btn">
             <Button
-              href="https://1drv.ms/b/s!Aka643mjyMAQpFdoHmkmERgX8IBb?e=EGgqeh"
+              href="https://1drv.ms/w/s!Aka643mjyMAQpG802xaHNWedF2Ge?e=iq7hq7"
               target="_blank"
               rel="noopener noreferrer"
               variant="light"

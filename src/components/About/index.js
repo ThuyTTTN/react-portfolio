@@ -16,14 +16,7 @@ function About() {
             </div>
             <div className="p-3">
               <p classname="about-text">
-                I'm a full stack developer student at the University of Central
-                Florida Bootcamp. As a UCF alumni, I received my B.S. in
-                Biology, then further my education with a Doctor of Chiropractic
-                degree from Palmer College of Chiropractic. I enjoy helping
-                people and learning about technology. In my free time, I love
-                spending time with my family, going to the beach, fishing, and
-                traveling. I look forward to working with you in the near
-                future.
+                I'm a Full Stack Web Developer and a mother of 2.  I have experience in JavaScript, CSS, HTML, Bootstrap, MySQL, React, Node.js, Express.js, MongoDB, Apollo GraphQL, and GIT/Github.  I love learning new programming languages and building applications.  In addition to software development, I have a broad interest in healthcare.   When I'm not coding, I enjoy making memories with my family, going to the beach, and traveling.   I look forward to working with you in the near future.
               </p>
             </div>
           </div>
