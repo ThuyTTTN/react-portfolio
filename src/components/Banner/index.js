@@ -84,7 +84,7 @@ function Banner({setPage}) {
 
                   <button onClick={() => setPage("about")}>
                     {" "}
-                    &nbsp;Let’s Connect <ArrowRightCircle size={25} />
+                    &nbsp;Let's Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}

@@ -55,6 +55,7 @@ function ContactForm() {
           <h1 className="title" style={{ textAlign: "center" }}>
             Let's Connect!
           </h1>
+          <p>Email me at ttruong06@gmail.com</p>
           <Form id="contact-form " onSubmit={handleSubmit}>
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
